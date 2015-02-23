@@ -13,7 +13,7 @@
 			"description":"A randomly generated secret to secure your Django installation",
 			"generator":"secret"
 		},
- 		"GITPROXY_PASSWORD":{
+ 		"MY_INHERITED_VALUE":{
 			"description":"Twitter API consumer key (Visit http://apps.twitter.com)",
 			"value":"",
 			"required":true
