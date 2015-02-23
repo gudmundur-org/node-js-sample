@@ -9,7 +9,27 @@
     "static"
   ],
   "env":{
-    "BUILDPACK_URL":"https://github.com/ryanbrainard/heroku-buildpack-print-env.git#envdir"
+    "BUILDPACK_URL":"https://github.com/ryanbrainard/heroku-buildpack-print-env.git#envdir",
+    		"CONSUMER_KEY":{
+			"description":"Twitter API consumer key (Visit http://apps.twitter.com)",
+			"value":"",
+			"required":true
+		},
+		"CONSUMER_SECRET":{
+			"description":"Twitter API consumer secret",
+			"value":"",
+			"required":true
+		},
+		"ACCESS_TOKEN":{
+			"description":"Twitter API access token",
+			"value":"",
+			"required":true
+		},
+		"ACCESS_TOKEN_SECRET":{
+			"description":"Twitter API access token secret",
+			"value":"",
+			"required":true
+		}
   },
   "addons":[
     "redistogo:nano"
