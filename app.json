@@ -12,14 +12,6 @@
 		"DJANGO_SECRET_KEY":{
 			"description":"A randomly generated secret to secure your Django installation",
 			"generator":"secret"
-		},
- 		"MY_INHERITED_VALUE":{
-			"description":"Twitter API consumer key (Visit http://apps.twitter.com)",
-			"value":"",
-			"required":true
-		},
-		"VARIABLE": {
-		  "required":false
 		}
   }
 }
