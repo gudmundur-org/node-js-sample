@@ -9,7 +9,6 @@
     "static"
   ],
   "env":{
-    "BUILDPACK_URL":"https://github.com/ryanbrainard/heroku-buildpack-print-env.git#envdir",
 		"DJANGO_SECRET_KEY":{
 			"description":"A randomly generated secret to secure your Django installation",
 			"generator":"secret"
@@ -19,20 +18,8 @@
 			"value":"",
 			"required":true
 		},
-		"CONSUMER_SECRET":{
-			"description":"Twitter API consumer secret",
-			"value":"",
-			"required":true
-		},
-		"ACCESS_TOKEN":{
-			"description":"Twitter API access token",
-			"value":"",
-			"required":true
-		},
-		"ACCESS_TOKEN_SECRET":{
-			"description":"Twitter API access token secret",
-			"value":"",
-			"required":true
+		"VARIABLE": {
+		  "required":false
 		}
   },
   "addons":[
