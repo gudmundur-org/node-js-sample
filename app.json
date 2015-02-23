@@ -10,7 +10,11 @@
   ],
   "env":{
     "BUILDPACK_URL":"https://github.com/ryanbrainard/heroku-buildpack-print-env.git#envdir",
-    		"CONSUMER_KEY":{
+		"DJANGO_SECRET_KEY":{
+			"description":"A randomly generated secret to secure your Django installation",
+			"generator":"secret"
+		},
+ 		"CONSUMER_KEY":{
 			"description":"Twitter API consumer key (Visit http://apps.twitter.com)",
 			"value":"",
 			"required":true
