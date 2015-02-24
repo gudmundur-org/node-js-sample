@@ -15,6 +15,7 @@
 		},
 		"NEEDED":{
 			"required": true
-		}
+		},
+		"PR_APP_NAME": { "required": true }
   }
 }
