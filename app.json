@@ -15,6 +15,9 @@
 		},
 		"NEEDED":{
 			"required": true
+		},
+		"APP_NAME:{
+			"required": true
 		}
   }
 }
