@@ -1,0 +1,23 @@
+{
+  "name":"Node.js Sample",
+  "description":"A Node.js app using Express 4",
+  "repository":"https://github.com/heroku/node-js-sample",
+  "logo":"http://node-js-sample.herokuapp.com/node.svg",
+  "keywords":[
+    "node",
+    "express",
+    "static"
+  ],
+  "env":{
+		"DJANGO_SECRET_KEY":{
+			"description":"A randomly generated secret to secure your Django installation",
+			"generator":"secret"
+		},
+		"NEEDED":{
+			"required": true
+		},
+		"APP_NAME": {
+			"required": true
+		}
+  }
+}
