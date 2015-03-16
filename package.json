@@ -27,6 +27,5 @@
   ],
   "license": "MIT",
   "scripts": {
-    "postinstall": "exit 1"
   }
 }
