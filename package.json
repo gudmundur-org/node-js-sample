@@ -26,9 +26,5 @@
   "contributors": [
     "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
   ],
-  "license": "MIT",
-  "env": {
-    "HEROKU_APP_NAME": {},
-    "HEROKU_PARENT_APP_NAME": {}
-  }
+  "license": "MIT"
 }
