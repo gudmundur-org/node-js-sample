@@ -7,5 +7,9 @@
     "node",
     "express",
     "static"
-  ]
+  ],
+  "env": {
+    "HEROKU_APP_NAME": {},
+    "HEROKU_PARENT_APP_NAME": {}
+  }
 }
