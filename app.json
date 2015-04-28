@@ -10,8 +10,5 @@
   ],
   "env": {
     "REQUIRED_VAR": { "required": true }
-  },
-  "scripts": {
-    "pr-predestroy": "ls"
   }
 }
