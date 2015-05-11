@@ -13,6 +13,6 @@
   },
   "scripts": {
     "pr-predestroy": "ls",
-    "install": "exit 1"
+    "postinstall": "exit 1"
   }
 }
