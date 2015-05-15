@@ -1,6 +1,6 @@
 {
   "name":"node-js-sample",
-  "scripts":{},
+  "scripts":{}
   "env":{
     "REQUIRED_VAR":{
       "required":true
