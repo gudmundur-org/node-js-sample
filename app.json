@@ -9,7 +9,8 @@
     "static"
   ],
   "env": {
-    "REQUIRED_VAR": { "required": true }
+    "REQUIRED_VAR": { "required": true },
+    "INT_VAR": { "value": 10 }
   },
   "scripts": {
     "pr-predestroy": "ls",
