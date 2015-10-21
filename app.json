@@ -11,5 +11,8 @@
   "env": {
     "HEROKU_APP_NAME": {},
     "HEROKU_PARENT_APP_NAME": {}
-  }
+  },
+  "addons": [
+    "heroku-postgresql"  
+  ]
 }
