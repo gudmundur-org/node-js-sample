@@ -4,6 +4,9 @@
   "env":{
     "REQUIRED_VAR":{
       "required":true
+    },
+    "PROVIDED_VALUE": {
+      "value": "hello"
     }
   },
   "addons":[]
