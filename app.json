@@ -1,6 +1,8 @@
 {
   "name":"node-js-sample",
-  "scripts":{},
+  "scripts":{
+    "pr-predestroy": "echo 'hello world'"
+  },
   "env":{
     "REQUIRED_VAR":{
       "required":true
