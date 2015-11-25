@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send('Hello forked status auto deploy afternoon!')
+  response.send('Hello forked status auto deploy The Coffee Collective morning!')
 })
 
 app.listen(app.get('port'), function() {
