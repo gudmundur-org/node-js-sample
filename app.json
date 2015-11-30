@@ -2,9 +2,6 @@
   "name":"node-js-sample",
   "scripts":{},
   "env":{
-    "REQUIRED_VAR":{
-      "required":true
-    }
   },
   "addons":[]
 }
